@@ -7,7 +7,7 @@ app.config["DEBUG"] = True
 
 @app.route('/')
 def index():
-    url_for('static', filename='/static/logo.png')
+    #url_for('static', filename='/static/logo.png')
     return render_template('Index.html')
 
 
